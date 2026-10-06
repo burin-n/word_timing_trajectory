@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concept-analysis"
+version = "0.1.0"
+description = "Concept-space analysis for supplied neural representations."
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "scipy",
+    "joblib",
+    "scikit-learn",
+    "pandas",
+    "einops",
+    "tqdm",
+    "matplotlib", 
+    "seaborn",
+    "PyYAML"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["concept_analysis*"]

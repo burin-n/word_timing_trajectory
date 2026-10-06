@@ -1,0 +1,45 @@
+hubert-base-ls960:
+  LEACE:
+    word_space:
+      param_id: 62
+      prominence: 0.175
+      smooth_window_size: 3
+      n_components: 2
+      preprocessor: null
+      threshold_max_angle: 0.7853981633974483
+      feature_frame_rate: 50.0
+      test_unit: word
+  Z_CPCA:
+    word_space:
+      param_id: 124
+      prominence: 0.349
+      smooth_window_size: 2
+      n_components: 2
+      preprocessor: null
+      threshold_max_angle: 1.0471975511965976
+      feature_frame_rate: 50.0
+      test_unit: word
+
+
+hubert-base-random:
+  Z_CPCA:
+    word_space:
+      test_unit: word
+      param_id: 61
+      prominence: 0.175
+      smooth_window_size: 2
+      n_components: 2
+      preprocessor: null
+      threshold_max_angle: 0.785398163397448
+      feature_frame_rate: 50.0
+
+  LEACE:
+    word_space:
+      test_unit: word
+      param_id: 242
+      prominence: 0.698
+      smooth_window_size: 3
+      n_components: 2
+      preprocessor: null
+      threshold_max_angle: 0.785398163397448
+      feature_frame_rate: 50.0
